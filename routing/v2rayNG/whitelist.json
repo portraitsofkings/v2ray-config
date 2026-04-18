@@ -1,0 +1,115 @@
+[
+  {
+    "domain": [
+      "geosite:category-ads-all"
+    ],
+    "enabled": true,
+    "locked": false,
+    "outboundTag": "block",
+    "remarks": "Блокировать рекламу"
+  },
+  {
+    "domain": [
+      "cp.cloudflare.com"
+    ],
+    "enabled": true,
+    "locked": false,
+    "outboundTag": "proxy",
+    "process": [
+      "com.v2ray.ang"
+    ],
+    "remarks": "Проверка задержки в прокси"
+  },
+  {
+    "domain": [
+      "ip.sb"
+    ],
+    "enabled": true,
+    "locked": false,
+    "outboundTag": "proxy",
+    "process": [
+      "com.v2ray.ang"
+    ],
+    "remarks": "Проверка IP в прокси"
+  },
+  {
+    "enabled": true,
+    "locked": false,
+    "outboundTag": "proxy",
+    "process": [
+      "app.revanced.android.youtube",
+      "com.discord",
+      "com.google.android.apps.docs",
+      "com.google.android.apps.fitness",
+      "com.google.android.apps.maps",
+      "com.google.android.apps.photos",
+      "com.google.android.apps.subscriptions.red",
+      "com.google.android.apps.tachyon",
+      "com.google.android.apps.translate",
+      "com.google.android.apps.youtube.music",
+      "com.google.android.gm",
+      "com.google.android.googlequicksearchbox",
+      "com.google.android.videos",
+      "com.google.android.youtube",
+      "com.openai.chatgpt",
+      "org.telegram.messenger.web",
+      "org.zwanoo.android.speedtest"
+    ],
+    "remarks": "Заблокированные приложения в прокси"
+  },
+  {
+    "enabled": true,
+    "ip": [
+      "geoip:ru-blocked"
+    ],
+    "locked": false,
+    "outboundTag": "proxy",
+    "process": [
+      "com.android.chrome",
+      "com.brave.browser",
+      "com.kiwibrowser.browser",
+      "com.mi.globalbrowser",
+      "org.mozilla.firefox"
+    ],
+    "remarks": "Заблокированные IP в прокси"
+  },
+  {
+    "domain": [
+      "speed.cloudflare.com,speedtest.net"
+    ],
+    "enabled": true,
+    "locked": false,
+    "outboundTag": "proxy",
+    "process": [
+      "com.android.chrome",
+      "com.brave.browser",
+      "com.kiwibrowser.browser",
+      "com.mi.globalbrowser",
+      "org.mozilla.firefox"
+    ],
+    "remarks": "Тест скорости в браузерах через прокси"
+  },
+  {
+    "domain": [
+      "geosite:ru-blocked"
+    ],
+    "enabled": true,
+    "locked": false,
+    "outboundTag": "proxy",
+    "process": [
+      "com.android.chrome",
+      "com.brave.browser",
+      "com.kiwibrowser.browser",
+      "com.mi.globalbrowser",
+      "org.mozilla.firefox"
+    ],
+    "remarks": "Заблокированные сайты в прокси"
+  },
+  {
+    "enabled": true,
+    "locked": false,
+    "outboundTag": "direct",
+    "port": "0-65535",
+    "remarks": "Остальное напрямую"
+  }
+]
