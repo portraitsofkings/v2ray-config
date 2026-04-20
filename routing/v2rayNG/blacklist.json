@@ -13,7 +13,8 @@
       "geosite:ru-blocked",
       "geosite:google",
       "geosite:cloudflare",
-      "geosite:youtube"
+      "geosite:youtube",
+      "geosite:telegram"
     ],
     "enabled": true,
     "locked": false,
@@ -34,7 +35,8 @@
     "ip": [
       "geoip:ru-blocked",
       "geoip:google",
-      "geoip:cloudflare"
+      "geoip:cloudflare",
+      "geoip:telegram"
     ],
     "locked": false,
     "outboundTag": "proxy",
