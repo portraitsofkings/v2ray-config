@@ -57,6 +57,7 @@
     "outboundTag": "proxy",
     "process": [
       "app.revanced.android.youtube",
+      "app.revanced.manager.flutter",
       "com.discord",
       "com.google.android.apps.docs",
       "com.google.android.apps.fitness",
@@ -71,6 +72,7 @@
       "com.google.android.videos",
       "com.google.android.youtube",
       "com.openai.chatgpt",
+      "org.telegram.messenger",
       "org.telegram.messenger.web",
       "org.zwanoo.android.speedtest"
     ],
