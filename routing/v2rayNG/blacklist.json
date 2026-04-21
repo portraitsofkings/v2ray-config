@@ -74,7 +74,8 @@
       "com.openai.chatgpt",
       "org.telegram.messenger",
       "org.telegram.messenger.web",
-      "org.zwanoo.android.speedtest"
+      "org.zwanoo.android.speedtest",
+      "com.zhiliaoapp.musically"
     ],
     "remarks": "Заблокированные приложения в прокси"
   },
