@@ -3,7 +3,7 @@
     "domain": [
       "geosite:category-ads-all"
     ],
-    "enabled": false,
+    "enabled": true,
     "locked": false,
     "outboundTag": "block",
     "remarks": "Блокировать рекламу"
@@ -12,13 +12,13 @@
     "domain": [
       "geosite:private"
     ],
-    "enabled": false,
+    "enabled": true,
     "locked": false,
     "outboundTag": "direct",
     "remarks": "Локальные домены напрямую"
   },
   {
-    "enabled": false,
+    "enabled": true,
     "ip": [
       "geoip:private"
     ],
@@ -27,7 +27,7 @@
     "remarks": "Локальные IP напрямую"
   },
   {
-    "enabled": false,
+    "enabled": true,
     "locked": false,
     "outboundTag": "direct",
     "process": [
@@ -446,9 +446,27 @@
     "domain": [
       "geosite:ru-available-only-inside"
     ],
-    "enabled": false,
+    "enabled": true,
     "locked": false,
     "outboundTag": "direct",
     "remarks": "Домены доступные только в РФ напрямую"
+  },
+  {
+    "domain": [
+      "geosite:category-ru"
+    ],
+    "enabled": true,
+    "locked": false,
+    "outboundTag": "direct",
+    "remarks": "Русские домены напрямую"
+  },
+  {
+    "ip": [
+      "geoip:ru"
+    ],
+    "enabled": true,
+    "locked": false,
+    "outboundTag": "direct",
+    "remarks": "Русские IP напрямую"
   }
 ]
