@@ -24,7 +24,7 @@
     ],
     "locked": false,
     "outboundTag": "direct",
-    "remarks": "Локальные IP"
+    "remarks": "Локальные IP напрямую"
   },
   {
     "domain": [
