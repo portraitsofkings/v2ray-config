@@ -4,7 +4,7 @@
     "locked": false,
     "outboundTag": "block",
     "process": [
-      "__unknown_app__"
+      "unknown_app"
     ],
     "remarks": "Запретить шпионским приложениям доступ к VPN туннелю"
   },
@@ -34,6 +34,15 @@
     "locked": false,
     "outboundTag": "block",
     "remarks": "Блокировать рекламу"
+  },
+  {
+    "domain": [
+      "geosite:ru-blocked"
+    ],
+    "enabled": true,
+    "locked": false,
+    "outboundTag": "proxy",
+    "remarks": "Заблокированные домены в прокси"
   },
   {
     "domain": [
