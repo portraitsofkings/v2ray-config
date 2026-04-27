@@ -9,10 +9,14 @@ com.deniscerri.ytdl
 com.discord
 com.github.android
 com.google.android.apps.authenticator2
+com.google.android.apps.docs
+com.google.android.apps.fitness
 com.google.android.apps.maps
 com.google.android.apps.messaging
 com.google.android.apps.photos
 com.google.android.apps.subscriptions.red
+com.google.android.apps.tachyon
+com.google.android.apps.translate
 com.google.android.apps.youtube.music
 com.google.android.dialer
 com.google.android.gm
@@ -26,6 +30,10 @@ com.kiwibrowser.browser
 com.mi.globalbrowser
 com.openai.chatgpt
 com.opera.browser
+com.opera.preinstall
 com.termux
+com.zhiliaoapp.musically
 org.mozilla.firefox
+org.telegram.messenger
 org.telegram.messenger.web
+org.zwanoo.android.speedtest
