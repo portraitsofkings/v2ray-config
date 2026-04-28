@@ -30,7 +30,11 @@
     "port": "",
     "outboundTag": "proxy",
     "domain": [
-      "geosite:ru-blocked"
+      "geosite:cloudflare",
+      "geosite:google",
+      "geosite:ru-blocked",
+      "geosite:telegram",
+      "geosite:youtube"
     ],
     "enabled": true,
     "remarks": "Заблокированные домены в прокси"
@@ -49,7 +53,10 @@
     "port": "",
     "outboundTag": "proxy",
     "domain": [
-      "geoip:ru-blocked"
+      "geoip:ru-blocked",
+      "geoip:telegram",
+      "geoip:google",
+      "geoip:cloudflare"
     ],
     "enabled": true,
     "remarks": "Заблокированные IP в прокси"
