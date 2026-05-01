@@ -17,3 +17,7 @@
 
 # Config Rating Formula
 `round(100 * (download^0.6 * upload^0.3) / ( (latency * (1 + jitter/latency))^0.4 ))`
+
+# Region Info
+- 🇽🇽 🔀: IP checks match, region checks don't match
+- 🇽🇽 🌐: IP checks don't match, region checks don't match
