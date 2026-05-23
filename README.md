@@ -12,7 +12,3 @@
 2. Import copied json in v2rayNG routing settings
 3. Copy text in [whitelist-per-app](routing/v2rayNG/whitelist-per-app) to clipboard
 4. Import copied text in per-app settings
-
-# Region Info
-- 🇽🇽 🔀: IP checks match, region checks don't match
-- 🇽🇽 🌐: IP checks don't match, region checks don't match
