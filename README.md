@@ -13,11 +13,6 @@
 3. Copy text in [whitelist-per-app](routing/v2rayNG/whitelist-per-app) to clipboard
 4. Import copied text in per-app settings
 
----
-
-# Config Rating Formula
-`round(100 * (download^0.6 * upload^0.3) / ( (latency * (1 + jitter/latency))^0.4 ))`
-
 # Region Info
 - 🇽🇽 🔀: IP checks match, region checks don't match
 - 🇽🇽 🌐: IP checks don't match, region checks don't match
