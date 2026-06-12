@@ -1,5 +1,3 @@
-
-
 # Routing Setup Guide (Mobile)
 
 ## Prerequisites
