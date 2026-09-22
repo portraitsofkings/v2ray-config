@@ -8,10 +8,10 @@
 
 ## v2rayNG Setup
 
-### 1. Routing Rules Setup
+### Routing Rules Setup
 1. Copy [routing rules JSON](./settings/v2rayNG/routing/russia.json)
 2. **`☰` → `Routing Settings` → `⋮` → `Import ruleset from clipboard`**
 
-### 2. Per-app Setup
+### Per-app Setup
 1. Copy [per-app rules](./settings/v2rayNG/apps/per-app.txt)
 2. **`☰` → `Per-app settings` → `⋮` → `Import from Clipboard`**
