@@ -1,0 +1,94 @@
+[
+  {
+    "enabled": true,
+    "id": "a9c1f34a-25a5-428a-9765-a789aa957882",
+    "locked": false,
+    "outboundTag": "block",
+    "process": [
+      "__unknown_app__"
+    ],
+    "remarks": "🔴 Запретить шпионским приложениям доступ к VPN туннелю"
+  },
+  {
+    "enabled": true,
+    "id": "79c2be17-5939-4ef1-9aec-fc97c55667d4",
+    "locked": false,
+    "outboundTag": "direct",
+    "protocol": [
+      "bittorrent"
+    ],
+    "remarks": "🟢 Торренты напрямую"
+  },
+  {
+    "domain": [
+      "geosite:private"
+    ],
+    "enabled": true,
+    "id": "f2dbfcd8-70c1-439c-b94d-bdc7dfc773a5",
+    "locked": false,
+    "outboundTag": "direct",
+    "remarks": "🟢 Локальные домены напрямую"
+  },
+  {
+    "enabled": true,
+    "id": "d32edb84-17be-4450-b6db-ea8f948e7d42",
+    "ip": [
+      "geoip:private"
+    ],
+    "locked": false,
+    "outboundTag": "direct",
+    "remarks": "🟢 Локальные IP"
+  },
+  {
+    "domain": [
+      "geosite:category-ads-all"
+    ],
+    "enabled": true,
+    "id": "77b7d644-d9ba-4655-96aa-8ccd10d6f7b8",
+    "locked": false,
+    "outboundTag": "block",
+    "remarks": "🔴 Блокировать рекламу"
+  },
+  {
+    "domain": [
+      "geosite:ru-blocked"
+    ],
+    "enabled": true,
+    "id": "75017660-60e9-4852-a8a1-7b3514029bb3",
+    "locked": false,
+    "outboundTag": "proxy",
+    "remarks": "🔵 Заблокированные домены в прокси"
+  },
+  {
+    "domain": [
+      "geosite:ru-available-only-inside",
+      "geosite:category-ru",
+      "animego.me"
+    ],
+    "enabled": true,
+    "id": "36b687c1-37fe-455d-b152-c87a545e185b",
+    "locked": false,
+    "outboundTag": "direct",
+    "remarks": "🟢 Русские домены и доступные только из РФ напрямую"
+  },
+  {
+    "enabled": true,
+    "id": "9df35d82-8b5e-4a0e-8be0-685a22612d57",
+    "ip": [
+      "geoip:ru-blocked"
+    ],
+    "locked": false,
+    "outboundTag": "proxy",
+    "remarks": "🔵 Заблокированные IP в прокси"
+  },
+  {
+    "enabled": true,
+    "id": "da60b5de-4426-41e8-ad27-8a8f505fe9a6",
+    "ip": [
+      "geoip:ru"
+    ],
+    "locked": false,
+    "outboundTag": "direct",
+    "remarks": "🟢 Русские IP напрямую"
+  }
+]

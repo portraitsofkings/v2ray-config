@@ -1,3 +1,17 @@
-# About
-- configs are filtered to be 4MB/s and higher
-- configs-slow are all configs from 1MB/s to 4MB/s
+## v2rayN Setup
+
+### Routing Rules Setup
+
+1. **`Settings` → `Routing Settings` → `+ Add`**
+2. Paste **`https://raw.githubusercontent.com/portraitsofkings/v2ray-config/refs/heads/main/settings/v2rayN/routing/russia.json`** in the URL field
+3. Click **`Import Rules From Subscription URL`**
+
+## v2rayNG Setup
+
+### 1. Routing Rules Setup
+1. Copy [routing rules JSON](./settings/v2rayNG/routing/russia.json)
+2. **`☰` → `Routing Settings` → `⋮` → `Import ruleset from clipboard`**
+
+### 2. Per-app Setup
+1. Copy [per-app rules](./settings/v2rayNG/apps/per-app.txt)
+2. **`☰` → `Per-app settings` → `⋮` → `Import from Clipboard`**

@@ -1,12 +1,20 @@
 [
   {
+    "outboundTag": "direct",
+    "protocol": [
+      "bittorrent"
+    ],
+    "enabled": true,
+    "remarks": "→ Торренты напрямую"
+  },
+  {
     "port": "",
     "outboundTag": "direct",
     "domain": [
       "geosite:private"
     ],
     "enabled": true,
-    "remarks": "Локальные домены напрямую"
+    "remarks": "→ Локальные домены напрямую"
   },
   {
     "port": "",
@@ -15,7 +23,7 @@
       "geoip:private"
     ],
     "enabled": true,
-    "remarks": "Локальные IP напрямую"
+    "remarks": "→ Локальные IP напрямую"
   },
   {
     "port": "",
@@ -24,7 +32,7 @@
       "geosite:category-ads-all"
     ],
     "enabled": true,
-    "remarks": "Блокировать рекламу"
+    "remarks": "✕ Блокировать рекламу"
   },
   {
     "port": "",
@@ -37,7 +45,7 @@
       "geosite:youtube"
     ],
     "enabled": true,
-    "remarks": "Заблокированные домены в прокси"
+    "remarks": "↪ Заблокированные домены в прокси"
   },
   {
     "port": "",
@@ -47,7 +55,7 @@
       "geosite:category-ru"
     ],
     "enabled": true,
-    "remarks": "Русские домены и доступные только из РФ напрямую"
+    "remarks": "→ Русские домены и доступные только из РФ напрямую"
   },
   {
     "port": "",
@@ -59,7 +67,7 @@
       "geoip:cloudflare"
     ],
     "enabled": true,
-    "remarks": "Заблокированные IP в прокси"
+    "remarks": "↪ Заблокированные IP в прокси"
   },
   {
     "port": "",
@@ -68,6 +76,6 @@
       "geoip:ru"
     ],
     "enabled": true,
-    "remarks": "Русские IP напрямую"
+    "remarks": "→ Русские IP напрямую"
   }
 ]
