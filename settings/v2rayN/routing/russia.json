@@ -1,5 +1,12 @@
 [
   {
+    "port": "443",
+    "network": "udp",
+    "outboundTag": "block",
+    "enabled": true,
+    "remarks": "✕ Блокировать QUIC"
+  },
+  {
     "outboundTag": "direct",
     "protocol": [
       "bittorrent"

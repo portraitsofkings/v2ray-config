@@ -11,6 +11,15 @@
   },
   {
     "enabled": true,
+    "id": "8fb9e921-9e8d-4d37-8053-1098836967ea",
+    "locked": false,
+    "network": "udp",
+    "outboundTag": "block",
+    "port": "443",
+    "remarks": "🔴 Блокировать QUIC"
+  },
+  {
+    "enabled": true,
     "id": "79c2be17-5939-4ef1-9aec-fc97c55667d4",
     "locked": false,
     "outboundTag": "direct",
